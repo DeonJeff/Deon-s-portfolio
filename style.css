@@ -75,10 +75,29 @@ img{
 /* contact */
 
 footer {
+
     background-color:lightcyan;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
     text-decoration: underline;
 }
+
+
+/* hero */
+.hero {
+background-image: url('../images/hero-bg.jpg');
+background-size: cover;
+background-position: center;
+display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+
+
+
 }
+
+
 
 

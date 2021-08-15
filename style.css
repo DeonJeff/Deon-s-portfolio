@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+   
+  }
+  
+  body {
+    
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* apply styles to <header> */
+  header {
+    padding: 20px 35px;
+    background-color: dimgray;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color:  rgb(0, 102, 128);
+    margin: 0;
+    display: inline;
+  }
+  header a {
+    text-decoration: none;
+    color: rgb(0, 102, 128);
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+
+  #aboutMe{
+         background-color: goldenrod;
+         width: 100%
+    
+  }
+  h2{
+      text-align: center;
+  }
+img{
+    margin: 0 auto;
+}
+#projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.steps{
+    height: 200px;
+    width:  200px;
+    background-color: green;
+}
+
+
